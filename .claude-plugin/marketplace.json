@@ -1,0 +1,25 @@
+{
+  "name": "ekko-marketplace",
+  "owner": {
+    "name": "BeGild",
+    "email": "yucang_bao@126.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by BeGild for workflow automation and development tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tmux-worktree",
+      "source": {
+        "source": "github",
+        "repo": "BeGild/tmux-worktree"
+      },
+      "description": "Creates isolated git worktree development environments with tmux sessions. Automatically manages branch naming, creates dedicated tmux windows with AI tool integration.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["git", "workflow", "isolation", "tmux", "ai"],
+      "strict": true
+    }
+  ]
+}
